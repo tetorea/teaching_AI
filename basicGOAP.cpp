@@ -189,9 +189,6 @@ bool calculePlanPourAtteindreEtat( const Etat& etatDepart, Etat etatVoulu, Seque
 		if( sequencesPossibles.size() < 1 ) return false;	// pas de sequence a tester : impossible de trouver une solution!
 	}
 
-	// il se peut qu'on ne trouve pas la sequence optimale : 
-	// par exemple, si la sequence coute plus cher que la dernière sequence testée mais moins chere que cette dernière séquence avec la dernière action..
-
 	return false;
 }
 
